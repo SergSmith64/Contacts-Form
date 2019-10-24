@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Contacts-Form</title>
 	<link rel="stylesheet" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
@@ -13,7 +14,24 @@
 
 	<div class="form-container">
 		<form action="">
-			<h1>Contacts-Form</h1>
+			<h2>Contacts-Form</h2>
+			<div class="form-field">
+				<label for="name">Name</label>
+				<input type="text" name="first-name" id="name" placeholder="Your name">
+				<input type="text" placeholder="Last Name">
+			</div>
+			<div class="form-field">
+				<label for="email">E-mail</label>
+				<input type="email" name="email" id="email" placeholder="mymail@gmail.com">
+			</div>
+			<div class="form-field">
+				<label for="pass">Password</label>
+				<input type="password" name="pass" id="pass" placeholder="12345678">
+			</div>
+
+			<div class="form-field">
+				<input type="submit" value="Submit Form">
+			</div>
 		</form>
 	</div>
 
